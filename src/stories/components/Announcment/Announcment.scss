@@ -1,0 +1,67 @@
+@media only screen and (max-width: 1149px) {
+  .announcement-bar {
+      padding-right: 40px;
+      .close-announcement-bar {
+        right: 0;
+      }
+    }
+
+
+  }
+  .announcement-bar {
+      transition: 0.6s;
+    }
+    
+.announcement-bar {
+  padding-right: 65px;
+  position: relative;
+  transition: all 0.3s linear;
+
+  .close-announcement-bar {
+    cursor: pointer;
+    position: absolute;
+    font-size: 12px;
+    right: 25px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--white);
+  }
+  &.not-hover {
+    .box-sw-announcement-bar {
+      &:hover {
+        animation-play-state: running !important;
+      }
+    }
+  }
+}
+.announcement-bar-item {
+  display: inline-block;
+  padding-right: 46px;
+  // margin-right: 23px;
+  position: relative;
+  p {
+    font-size: 12px;
+    padding: 10px 0px;
+    font-weight: 600;
+    color: var(--white);
+    white-space: nowrap;
+    padding-left: 23px;
+  }
+  &::after {
+    height: 1px;
+    width: 22px;
+    background-color: var(--white);
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  }
+}

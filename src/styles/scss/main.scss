@@ -1,0 +1,12 @@
+@use "../fonts/fonts.css";
+@use "../fonts/font-icons.css";
+@use "../css/bootstrap.min.css";
+@use "../css/swiper-bundle.min.css";
+@use "../css/animate.css";
+@use "./app.scss";
+@use 'abstracts' as a;
+
+.class {
+  @include a.flex(center, center);
+}
+
