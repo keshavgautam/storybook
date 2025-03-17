@@ -39,7 +39,7 @@
     .pagination-link {
         width: 45px;
         height: 39px;
-         @include m.flex(center, center);
+        @include flex(center, center);
         box-sizing: border-box;
         color: var(--main);
         border: 1px solid;
@@ -480,12 +480,12 @@
 }
 .brand-item {
     padding: 20px;
-     @include m.flex(center, center);
+    @include flex(center, center);
     width: 100%;
     height: 100%;
 }
 .brand-item-v2 {
-     @include m.flex(center, center);
+    @include flex(center, center);
     width: 100%;
     height: 100%;
 }
@@ -2239,7 +2239,7 @@
             margin-bottom: 10px;
         }
         .cart-list-social{
-             @include m.flex(center, center);
+            @include flex(center, center);
             gap: 8px;
         }
     }

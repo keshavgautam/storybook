@@ -37,14 +37,16 @@
  ------------------------------------------------------------------------------ */
 
 /*--------- Abstracts variable ---------- */
+@import "./abstracts/index";
 
-@use "./abstracts/index";
 /*---------- Reset css styles ----------- */
+@import "reset";
 
-@use "./reset";
 /*------------ Components ---------------- */
-@use "./component/index";
+@import "./component/index";
 
 /*------------ sections ---------------- */
+@import "./sections";
 
 /*-------------- Responsive ----------------- */
+@import "./responsive";
