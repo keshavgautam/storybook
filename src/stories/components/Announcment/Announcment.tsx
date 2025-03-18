@@ -1,13 +1,8 @@
 import { useEffect } from "react";
 
-import "./Announcment.css"
-import "./Announcment.scss"
+import "./Announcment.css";
+import "./Announcment.scss";
 export default function Announcment() {
-
-
-
-
-
   return (
     <div className="announcement-bar bg_dark">
       <div className="wrap-announcement-bar">
@@ -63,6 +58,3 @@ export default function Announcment() {
     </div>
   );
 }
-
-  
-
